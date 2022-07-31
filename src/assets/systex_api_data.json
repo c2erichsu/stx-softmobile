@@ -1,0 +1,64 @@
+{
+    "DataList": [
+      {
+        "title": "Android",
+        "content": "Android，中文使用者多以非官方名稱「安卓」稱之，是一個基於Linux核心與其他開源軟體的開放原始碼的行動作業系統，由Google成立的開放手機聯盟持續領導與開發。Android Inc.於2003年10月由安迪·魯賓、利奇·米納爾、尼克·席爾斯、克里斯·懷特在加州帕羅奧圖建立。Android最初由安迪·魯賓等人開發製作，最初開發這個系統的早期方向是建立一個數位相機的先進作業系統，但是後來發現相機市場規模不夠大，加上智慧型手機發展趨勢快速成長，於是Android成為一款面向智慧型手機的作業系統。於2005年7月11日Android Inc.被美國科技企業Google收購。",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/k_y8uxfhRieUXF.png"
+      },
+      {
+        "title": "iOS",
+        "content": "iOS是蘋果公司為其行動裝置所開發的專有行動作業系統，為其公司的許多行動裝置提供操作介面，支援裝置包括iPhone、iPad和iPod touch。iOS在iOS 4.0發布前名為iPhone OS，iPad版本則於iOS 13起獨立為iPadOS。iOS是繼Android後全球第二大最受歡迎的行動作業系統，市佔率於2022年2月已達約28.3% ，但仍然低於最多廠商使用的Google開發的Android系統的71%。2007年，iOS隨iPhone亮相首次推出，並擴展至支援其他蘋果公司的裝置，如iPod touch（2007年9月）及iPad（2010年1月）。截至2018年3月，蘋果公司的App Store已提供超過210萬個iOS應用程式，當中有100萬個是適用於iPad的原生應用程式。這些行動應用程式的下載總量已超過1,300億次。",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/bo8GXmoUP4goMI.jpg"
+      },
+      {
+        "title": "我是標題3",
+        "content": "內文3",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/JO-45tWrZTPtIS.png"
+      },
+      {
+        "title": "我是標題4",
+        "content": "內文4",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://xxxxx.com.tw/img.png"
+      },
+      {
+        "title": "我是標題5",
+        "content": "內文5",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/m2rk-Hv6HVBfvc.jpg"
+      },
+      {
+        "title": "我是標題6",
+        "content": "內文6",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://xxxxx.com.tw/img.png"
+      },
+      {
+        "title": "我是標題7",
+        "content": "內文7",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/V6y24iRltMryAB.jpg"
+      },
+      {
+        "title": "我是標題8",
+        "content": "內文8",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/bo8GXmoUP4goMI.jpg"
+      },
+     {
+        "title": "我是標題9",
+        "content": "內文9",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/V6y24iRltMryAB.jpg"
+      },
+      {
+        "title": "我是標題10",
+        "content": "內文10",
+        "msgTime": "2022-06-02 07:28:20",
+        "img": "https://file.coffee/u/bo8GXmoUP4goMI.jpg"
+      }
+    ]
+  }
