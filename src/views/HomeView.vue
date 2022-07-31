@@ -3,10 +3,7 @@ import SYSTEX_API_DATA from '@/assets/systex_api_data.json'
 import CardLayoutVue from '../components/CardLayout.vue'
 import BScroll from '@better-scroll/core'
 import { RouterLink, RouterView } from 'vue-router'
-const bs = new BScroll('.div', {
-  disableMouse: false,
-  disableTouch: false
-})
+const bs = new BScroll('.div', {})
 
 export default {
   name: 'app',
@@ -16,25 +13,30 @@ export default {
   data() {
     return {
       systex_url: 'https://smuat.megatime.com.tw/EAS/Apps/systex/hr_elearning/hr_elearning_20220602_181350.json',
-      fetchData: null
+      fetchData: null,
     }
   },
   methods: {
     async fetch_SYSTEX_API() {
-      //const data = await fetch(`${this.systex_url}`)
-      //this.fetchData = await data.json()
-      //console.log(this.fetchData)
+      /* SYSTEX API URL blocked by CORS policy?
+
+      const data = await fetch(`${this.systex_url}`)
+      this.fetchData = await data.json()
+      console.log(this.fetchData)
+      */
+
+      // 本機自建的 API DATA
       this.fetchData = SYSTEX_API_DATA.DataList
-      console.log(SYSTEX_API_DATA.DataList)
     },
+
+    // Better Scroll初始化
     init() {
       this.bs = new BScroll(this.$refs.scroll, {
+        disableMouse: false,
+        disableTouch: false,
         probeType: 0,
         click: true
       })
-    },
-    clickHandler(item) {
-      window.alert(item)
     },
   },
   created() {
@@ -45,7 +47,7 @@ export default {
   },
   beforeDestroy() {
     this.bs.destroy()
-  },
+  }
 }
 </script>
 
@@ -63,9 +65,9 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .core-container .scroll-wrapper {
-  height: calc(100% - 30px);
+  height: calc(100vh - 50px);
   position: relative;
   overflow: hidden;
 }

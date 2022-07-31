@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
   align-content: center;
   vertical-align: middle;
   height: 50px;
-  background-color: bisque;
+  background-color: lightgrey;
   z-index: 1;
 }
 
